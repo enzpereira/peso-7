@@ -53,7 +53,7 @@ function validarCPF(cpf) {
         return false;
     }
 
-    // Cálculo do 2º Dígito Verificador
+
     let soma2 = 0;
     let peso2 = 11;
     for (let i = 0; i < 10; i++) {
